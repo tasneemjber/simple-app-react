@@ -1,0 +1,52 @@
+
+#about {
+    padding: 4rem 0;
+    text-align: center;
+    background-color:  rgb(26 188 156);
+    color: #ffffff;
+}
+
+
+#about h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase; 
+}
+
+
+#about .container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 3rem; 
+}
+
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 400px; 
+    flex: 1; 
+    margin: 0; 
+    text-align: left; 
+    line-height: 1.6; 
+}
+
+#about .download-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: rgb(26, 188, 156); 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: 2px solid white; 
+}
+
+
+
+#about .download-btn:hover {
+    background-color: #ffffff;
+    color:  rgb(26 188 156);;
+}
